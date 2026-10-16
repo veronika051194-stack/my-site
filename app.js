@@ -1,6 +1,6 @@
 const CONTACT_LINKS = {
-  telegram: "https://t.me/Finance_Natalia_CFO",
-  max: "https://max.ru/u/f9LHodD0cOJM1VTccs81hGtUGmt7isazoDHRw2OFyi2Mk8OJtH_7ubRl1GA"
+  telegram: "",
+  max: ""
 };
 
 document.documentElement.classList.add("js");
@@ -139,9 +139,9 @@ function setupCheckup() {
 
   const answers = Array(questions.length).fill(null);
   const messages = {
-    diagnosis: "Похоже, бизнес теряет деньги в нескольких местах. Начните с финансовой диагностики — найдём причину и расставим приоритеты.",
-    system: "Следующий шаг — настроить управленческий учёт и прогноз денег, чтобы видеть проблему до того, как решение станет дорогим.",
-    support: "Финансовое сопровождение поможет держать прибыль, деньги и ключевые решения под регулярным контролем."
+    diagnosis: "Начните с финансовой диагностики: сначала важно собрать целостную картину бизнеса.",
+    system: "Следующий шаг — внедрение системы учёта и регулярной отчётности.",
+    support: "Вам может подойти финансовое сопровождение для регулярного контроля и решений."
   };
 
   const render = () => {
